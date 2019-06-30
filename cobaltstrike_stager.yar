@@ -3,8 +3,8 @@ rule CobaltStrike_VBA_Powershell : CobaltStrike VBScript Powershell
 	meta:
 		description = "Detects the Cobalt Strike VBScript stager"
 		author = "@nric0"
-		version = "2"
-		date = "2018-04-11"
+		version = "3"
+		date = "2019-06-30"
 	strings:
 		$a1 = "VBScript" nocase ascii
 		$a2 = "var_func()" nocase ascii
